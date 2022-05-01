@@ -7,5 +7,9 @@ provider:
   runtime: nodejs14.x
 
 functions:
-  hello:
-    handler: handler.hello
+  img-analyse:
+    handler: handler.main
+    events:
+      - http:
+          path: analyse
+          method: get
