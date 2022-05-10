@@ -1,0 +1,13 @@
+org: tassiorego
+app: trigger-dynamodb
+service: trigger-dynamodb
+
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs14.x
+
+functions:
+  hello:
+    handler: handler.hello
