@@ -17,4 +17,22 @@ Após instalado bastar usar usar o comando abaixo e verá opções de exemplos p
 ```bash
   serverless
 ```
-Você pode também usar o alias `sls` que já vem instalado e facilita a criação o uso da CLI e a partir de agora vamos usar somente ele.
+
+Você pode também usar o alias `sls` que já vem instalado e facilita a criação o uso da CLI e a partir de agora vamos usar somente ele. Após executar `sls` você verá as seguintes opções:
+
+```bash
+❯ AWS - Node.js - Starter
+  AWS - Node.js - HTTP API
+  AWS - Node.js - Scheduled Task
+  AWS - Node.js - SQS Worker
+  AWS - Node.js - Express API
+  AWS - Node.js - Express API with DynamoDB
+  AWS - Python - Starter
+  AWS - Python - HTTP API
+  AWS - Python - Scheduled Task
+  AWS - Python - SQS Worker
+  AWS - Python - Flask API
+  AWS - Python - Flask API with DynamoDB
+  Other
+```
+Selecione a primeira opção você terá o primeiro exemplo
